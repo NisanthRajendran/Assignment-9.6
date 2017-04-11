@@ -1,0 +1,20 @@
+1. Explain about the different complex data types in pig
+              Pig has three complex datatypes: Map,Tuples and Bag.All these datatypes can contain data of any type including other complex datatypes.
+              MAP:
+                  *A map is a set of key-value pairs. 
+                  *The key is of type chararray and should be unique.
+                  *The value might be of any type. It is represented by ‘[]’
+                  Eg:[id#25,age#45]
+                  
+              BAG:
+                  *A bag is an unordered collection of tuples. 
+                  *A bag can have duplicate tuples.
+                  *The tuples inside the bag are enclosed in brackets separated by comma(,).
+                  *A bag can have tuples with differing numbers of fields. However, if Pig tries to access a field that does not exist,
+                   a null value is substituted.
+                  Eg:{('nish', 22), ('adhi', 22), ('johny', 25)} 
+                  
+              TUPLE:
+                  *A tuple is a fixed-length, ordered collection of Pig data elements. 
+                  *Tuples are divided into fields and each field containing one element of any data type.
+                  Eg:(vignesh,23)
