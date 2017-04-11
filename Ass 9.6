@@ -47,7 +47,37 @@
          *Abstraction level is high in Pig compared to Mapreduce
          
 4. Explain how pig differs from sql?
-         *
+         *Pig is a scripting language and SQL is a declarative language.
+         *Schema is not mandatory in pig and it is mandatory in SQL.
+         *The datamodel used in Pig is nested relational and the datamodel used in SQL is flat relational.
+         *Apache Pig provides limited opportunity for Query optimization and there is more opportunity for query optimization in SQL.
+         
+5.Explain the scalar data types in pig?
+         The scalar Data Types in pig are
+           1.Int
+           2.Long
+           3.Float
+           4.Double
+           5.Chararray
+           6.Bytearray
+       INT:
+            It is signed 32 bit integer.Int are represented in interfaces by java.lang.Integer.Eg:45
+       LONG:
+            It is a 64 bit signed integer.Long are represented in interfaces by java.lang.Long.Eg:67777774777777
+       FLOAT:
+            It is a 32 bit floating point. This data type is similar to the Float in java.Float is represented in interfaces by java.lang.Float.Eg:5.67
+       Double:
+            It is a 63 bit floating pint. Doubles are represented in interfaces by java.lang.Double.Eg:5.3234
+       Chararray:
+            Chararrays are represented in interfaces by java.lang.String. Constant chararrays are expressed as string literals with single quotes, for example, 'nish'.
+            In addition to standard alphanumeric and symbolic characters, you can express certain characters in chararrays by using backslash codes, such as \t for Tab and \n for Return.
+       Bytearray:
+            Bytearrays are represented in interfaces by a Java class DataByteArraythat wraps a Java byte[].
+            There is no way to specify a constant bytearray.
+              
+
+
+
          
           
           
